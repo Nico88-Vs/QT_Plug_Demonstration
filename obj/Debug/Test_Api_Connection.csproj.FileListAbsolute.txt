@@ -1,0 +1,13 @@
+A:\Quantower\Settings\Scripts\plug-ins\Test_Api_Connection.deps.json
+A:\Quantower\Settings\Scripts\plug-ins\Test_Api_Connection.dll
+A:\Quantower\Settings\Scripts\plug-ins\Test_Api_Connection.pdb
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\Test_Api_Connection.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\Test_Api_Connection.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\Test_Api_Connection.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\Test_Api_Connection.AssemblyInfo.cs
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\Test_Api_Connection.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\Test_Api.24B08807.Up2Date
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\Test_Api_Connection.dll
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\refint\Test_Api_Connection.dll
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\Test_Api_Connection.pdb
+C:\Users\user\source\repos\Test_Api_Connection\obj\Debug\ref\Test_Api_Connection.dll

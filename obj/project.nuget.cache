@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "uC/x6/4fDkscipPfXDW1F8JNGbXFe7gMrmPt8ybpSmKZ9ojBdm77GIcN73wCNE5Tzb7yebQgz1cpEkXcaCJ4vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user\\source\\repos\\Test_Api_Connection\\Test_Api_Connection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\rabbitmq.client\\6.8.1\\rabbitmq.client.6.8.1.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.drawing.common\\8.0.4\\system.drawing.common.8.0.4.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

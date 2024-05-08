@@ -1,0 +1,325 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Microsoft.Win32.SystemEvents/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "RabbitMQ.Client/6.8.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5",
+          "System.Threading.Channels": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/RabbitMQ.Client.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.4": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0"
+        },
+        "compile": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/System.Drawing.Common.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "System.Memory/4.5.5": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.1/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/_._": {}
+        }
+      },
+      "System.Threading.Channels/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Threading.Channels.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Win32.SystemEvents/8.0.0": {
+      "sha512": "9opKRyOKMCi2xJ7Bj7kxtZ1r9vbzosMvRrdEhVhDz8j8MoBGgB+WmC94yH839NPH+BclAjtQ/pyagvi/8gDLkw==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net8.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "RabbitMQ.Client/6.8.1": {
+      "sha512": "jNsmGgmCNw2S/NzskeN2ijtGywtH4Sk/G6jWUTD5sY9SrC27Xz6BsLIiB8hdsfjeyWCa4j4GvCIGkpE8wrjU1Q==",
+      "type": "package",
+      "path": "rabbitmq.client/6.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net462/RabbitMQ.Client.dll",
+        "lib/net462/RabbitMQ.Client.xml",
+        "lib/netstandard2.0/RabbitMQ.Client.dll",
+        "lib/netstandard2.0/RabbitMQ.Client.xml",
+        "rabbitmq.client.6.8.1.nupkg.sha512",
+        "rabbitmq.client.nuspec"
+      ]
+    },
+    "System.Drawing.Common/8.0.4": {
+      "sha512": "3G4xpa8mUYGzEF0HlswlBArAFywHJIzsZoB5hU4yMlnYHaabj/lg019BwbyyYBxj0aoM7Cz+jdlgUemeno9LOQ==",
+      "type": "package",
+      "path": "system.drawing.common/8.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.pdb",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.pdb",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.pdb",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/net8.0/System.Drawing.Common.dll",
+        "lib/net8.0/System.Drawing.Common.pdb",
+        "lib/net8.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.pdb",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "system.drawing.common.8.0.4.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "type": "package",
+      "path": "system.memory/4.5.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.5.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Channels/7.0.0": {
+      "sha512": "qmeeYNROMsONF6ndEZcIQ+VxR4Q/TX/7uIVLJqtwIWL7dDWeh0l1UIqgo4wYyjG//5lUNhwkLDSFl+pAWO6oiA==",
+      "type": "package",
+      "path": "system.threading.channels/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Threading.Channels.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Threading.Channels.targets",
+        "lib/net462/System.Threading.Channels.dll",
+        "lib/net462/System.Threading.Channels.xml",
+        "lib/net6.0/System.Threading.Channels.dll",
+        "lib/net6.0/System.Threading.Channels.xml",
+        "lib/net7.0/System.Threading.Channels.dll",
+        "lib/net7.0/System.Threading.Channels.xml",
+        "lib/netstandard2.0/System.Threading.Channels.dll",
+        "lib/netstandard2.0/System.Threading.Channels.xml",
+        "lib/netstandard2.1/System.Threading.Channels.dll",
+        "lib/netstandard2.1/System.Threading.Channels.xml",
+        "system.threading.channels.7.0.0.nupkg.sha512",
+        "system.threading.channels.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "RabbitMQ.Client >= 6.8.1",
+      "System.Drawing.Common >= 8.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Test_Api_Connection\\Test_Api_Connection.csproj",
+      "projectName": "Test_Api_Connection",
+      "projectPath": "C:\\Users\\user\\source\\repos\\Test_Api_Connection\\Test_Api_Connection.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\Test_Api_Connection\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "RabbitMQ.Client": {
+            "target": "Package",
+            "version": "[6.8.1, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[8.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
